@@ -1,0 +1,60 @@
+name: elagy_pharmacy_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.1+2
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: any
+  firebase_messaging: any
+  firebase: any
+  video_player: any
+  device_preview: ^1.1.0
+  geolocator: any
+  flutter_offline: any
+  flutter_bloc: ^8.0.1
+  bloc: ^8.0.3
+  fluttertoast: any
+  shared_preferences: any
+  hexcolor: any
+  cached_network_image: any
+  http: any
+  sqflite: any
+  smooth_page_indicator: any
+  flutter_zoom_drawer: any
+  url_launcher: any
+  flutter_image_slideshow: any
+  rename: ^2.0.1
+  dropdown_search: ^0.6.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/video/
+    - assets/images/
+    - assets/images/splash/
+    - assets/images/Login3/
+    - assets/images/reset password/
+    - assets/images/profile/
+    - assets/images/menu/
+    - assets/images/menus/
+    - assets/images/previous images/
+    - assets/images/order/
+    - assets/images/contact us/
+    - assets/images/about_us/
+    - assets/images/onboarding/
+    - assets/images/onboarding/1/
+    - assets/images/onboarding/2/
+    - assets/images/onboarding/3/
+  fonts:
+    - family: DIN Next LT Arabic
+      fonts:
+        - asset: assets/fonts/DIN Next LT Arabic Light.ttf
